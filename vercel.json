@@ -1,0 +1,13 @@
+{
+  "name": "personal-finance-visualizer",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "@mongodb-uri"
+  }
+}
